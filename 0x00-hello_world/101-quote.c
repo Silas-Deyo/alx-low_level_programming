@@ -4,14 +4,11 @@
 /**
  * main - Entry point
  *
- * return: 1 (Failure)
+ * return: Alway
  */
 int main(void)
 {
-	int s = strlen("and that piece of art is useful - Dora Korpar, 2015-10-19 \n");
-
-	write(2,
-			"and that piece of art is useful - Dora Korpar, 2015-10-19 \n",
-			s);
+	char str1[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 	return (1);
 }
