@@ -23,7 +23,7 @@ int main(void)
 
 	while (j < 91)
 	{
-		putchar(10);
+		putchar(j);
 		j++;
 	}
 
