@@ -2,8 +2,8 @@
 #include "main.h"
 
 /**
- * print_to_98 - fuunction declaration
- * @n - starting integer
+ * print_to_98 - print numbers to 98
+ * @n: starting integer
  *
  * Description: prints all natural numbers from n - 98
  *
