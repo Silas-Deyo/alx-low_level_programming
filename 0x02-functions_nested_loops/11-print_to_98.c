@@ -3,7 +3,7 @@
 
 /**
  * print_to_98 - fuunction declaration
- * @n - integer
+ * @n - Starting integer
  *
  * Return: void
  */
